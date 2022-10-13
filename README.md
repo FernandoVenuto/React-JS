@@ -1,2 +1,0 @@
-# React-JS
- Curso React
