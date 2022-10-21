@@ -1,19 +1,19 @@
+//Componentes
+import FirstComponent from "./components/FirstComponent";
+import TemplateExpression from "./components/TemplateExpression";
 import "./App.css";
-import Evento from './components/Evento'
-import Formulario from './components/Formulario'
+import Events from "./components/Events";
 
 function App() {
   return (
     <div className="App">
-      <h1> Testando Eventos</h1>
+      <FirstComponent />
+      <TemplateExpression />
+      <h1>Fundamentos React</h1>
 
-      <Evento numero={1}/>
-      <Evento numero={2}/>
-
-      <Formulario />
+      <Events />
     </div>
   );
-
 }
 
 export default App;
